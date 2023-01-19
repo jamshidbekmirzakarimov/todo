@@ -13,48 +13,19 @@
   <!-- <script src="./js/main.js" defer></script> -->
 </head>
 <body>
-  
-  <!-- C - Create (POST) -->
-  <!-- R - Read (GET) -->
-  <!-- U - Update (PUT) -->
-  <!-- D - Delete (DELETE) -->
-  
   <div class="container">
     <div class="card">
-      <p class="subtitle">Mahsulotni kiriting</p>
-      <form class="form">
-        <label class="w-100">
-          <input class="form-name" type="text" placeholder="Mahsulotni nomi..">
-        </label>
-        
-        <div class="d-grid">
-          <button class="btn" type="submit">Kiritish</button>
-        </div>
-      </form>
-      
-      <p class="add-title">
-        Bozorlik ro'yhati
-      </p>
+      <h2 class="title">TODO</h2>
       <ul class="form-result"></ul>
-    </div>
-    
+      <form class="form">
+        <label id="checked-label" class="w-100">
+          <input class="form-name" type="text" placeholder="Add Todo.." required aria-label="todo kiriting">
+        </label>
+        <button class="btn" type="submit">Add</button>
+      </div>
+    </form>
   </div>
-  
-  
-  <!-- <p>Hello world!</p> -->
-  
-  <!-- 
-    <script> Internal usuli
-      console.log("Hello world!");
-    </script> 
-  -->
-  
-  <!-- <script>
-    addEventListener("DOMContentLoaded", function(){
-      console.log("DOMContentLoaded");
-    })
-  </script> -->
-  
-  <script src="./js/main.js"></script>
+</div>
+<script src="./js/main.js"></script>
 </body>
 </html>

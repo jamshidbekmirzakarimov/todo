@@ -100,11 +100,11 @@ function drawPage(){
     result += 
     "<div class='list-group-item'>" +
     "<div class='box'>" +
-    "<input type='checkbox' class='text-warning'>" +
-    "<p class='text-primary'>Mahsulot nomi: " + ombor[i][0] + "</p>" +
+    "<input type='checkbox' class='input-check'>" +
+    "<p class='text'>" + ombor[i][0] + "</p>" +
     "</div>" +
     "<div>" +
-    "<button class='btn btn-danger me-3' type='button' onclick='deleteProduct(" + i + ")'>Delete</button>" +
+    "<button class='btn-delete' type='button' onclick='deleteProduct(" + i + ")'>Delete</button>" +
     "</div>" +
     "</div>"
   }
