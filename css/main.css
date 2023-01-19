@@ -1,0 +1,21 @@
+body{
+  background-color: yellow;
+}
+
+.text-primary{
+  color: red;
+}
+
+.list-group-item{
+  display: flex;
+  flex-direction: column;
+}
+.box{
+  display: flex;
+  border: 2px solid red;
+}
+
+.form-result{
+  list-style: none;
+  padding-left: 0;
+}
